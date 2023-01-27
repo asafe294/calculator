@@ -25,7 +25,8 @@ body {
 }
 
 #screen {
-    background-color: #a9a7a7;
+    color: #ffffff;
+    background-color: #8f8f8f;
     border: 1px solid #a9a7a7;
     border-radius: 10px;
     height: 60px;
@@ -35,6 +36,8 @@ body {
 }
 
 #keyboard {
+    font-size: 25px;
+    font-weight: 600;
     align-self: center;
     margin-top: 15px;
     height: 300px;
@@ -49,9 +52,9 @@ body {
 .button {
     color: #ffffff;
     margin-right: 5px;
-    border: 1px solid #c4b726;
+    border: 1px solid #6d96ae;
     border-radius: 20px;
-    background-color: #c4b726;
+    background-color: #5298c0;
     height: 55px;
     width: 55px;
     display: flex;
