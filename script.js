@@ -31,43 +31,41 @@ function start() {
 
 function addValueToNumButton() {
 
-    const keyboard = document.querySelectorAll('.num')
-    console.log(keyboard)
-    keyboard.TEXT_NODE
+    
     //keyboard.addEventListener('click', function(e) {console.log(e.target.innerHTML)})
     
     
 
     
-    // const btnZero = document.querySelector('#zero')
-    // btnZero.addEventListener('click', function() {addNumToKeyObj("0"); renderOperationInScreen()})
+    const btnZero = document.querySelector('#zero')
+    btnZero.addEventListener('click', function() {addNumToKeyObj("0"); renderOperationInScreen()})
 
-    // const btnOne = document.querySelector('#one')
-    // btnOne.addEventListener('click', function() {addNumToKeyObj("1"); renderOperationInScreen()})
+    const btnOne = document.querySelector('#one')
+    btnOne.addEventListener('click', function() {addNumToKeyObj("1"); renderOperationInScreen()})
 
-    // const btnTwo = document.querySelector('#two')
-    // btnTwo.addEventListener('click', function() {addNumToKeyObj("2"); renderOperationInScreen()})
+    const btnTwo = document.querySelector('#two')
+    btnTwo.addEventListener('click', function() {addNumToKeyObj("2"); renderOperationInScreen()})
 
-    // const btnThree = document.querySelector('#three')
-    // btnThree.addEventListener('click', function() {addNumToKeyObj("3"); renderOperationInScreen()})
+    const btnThree = document.querySelector('#three')
+    btnThree.addEventListener('click', function() {addNumToKeyObj("3"); renderOperationInScreen()})
 
-    // const btnFour = document.querySelector('#four')
-    // btnFour.addEventListener('click', function() {addNumToKeyObj("4"); renderOperationInScreen()})
+    const btnFour = document.querySelector('#four')
+    btnFour.addEventListener('click', function() {addNumToKeyObj("4"); renderOperationInScreen()})
 
-    // const btnFive = document.querySelector('#five')
-    // btnFive.addEventListener('click', function() {addNumToKeyObj("5"); renderOperationInScreen()})
+    const btnFive = document.querySelector('#five')
+    btnFive.addEventListener('click', function() {addNumToKeyObj("5"); renderOperationInScreen()})
 
-    // const btnSix = document.querySelector('#six')
-    // btnSix.addEventListener('click', function() {addNumToKeyObj("6"); renderOperationInScreen()})
+    const btnSix = document.querySelector('#six')
+    btnSix.addEventListener('click', function() {addNumToKeyObj("6"); renderOperationInScreen()})
 
-    // const btnSeven = document.querySelector('#seven')
-    // btnSeven.addEventListener('click', function() {addNumToKeyObj("7"); renderOperationInScreen()})
+    const btnSeven = document.querySelector('#seven')
+    btnSeven.addEventListener('click', function() {addNumToKeyObj("7"); renderOperationInScreen()})
 
-    // const btnEight = document.querySelector('#eight')
-    // btnEight.addEventListener('click', function() {addNumToKeyObj("8"); renderOperationInScreen()})
+    const btnEight = document.querySelector('#eight')
+    btnEight.addEventListener('click', function() {addNumToKeyObj("8"); renderOperationInScreen()})
 
-    // const btnNine = document.querySelector('#nine')
-    // btnNine.addEventListener('click', function() {addNumToKeyObj("9"); renderOperationInScreen()})
+    const btnNine = document.querySelector('#nine')
+    btnNine.addEventListener('click', function() {addNumToKeyObj("9"); renderOperationInScreen()})
 
     
 }
@@ -82,26 +80,26 @@ function addNumToKeyObj(Num) {
 
 function addFunctionToOperationalButton() {
 
-    // const plusButton = document.querySelector('#plus')
-    // plusButton.addEventListener('click', function(){addOperator("+")})
+    const plusButton = document.querySelector('#plus')
+    plusButton.addEventListener('click', function(){addOperator("+")})
 
-    // const minusButton = document.querySelector('#minus')
-    // minusButton.addEventListener('click', function(){addOperator("-") })
+    const minusButton = document.querySelector('#minus')
+    minusButton.addEventListener('click', function(){addOperator("-") })
 
-    // const multiplyButton = document.querySelector('#multiply')
-    // multiplyButton.addEventListener('click', function(){addOperator("*") })
+    const multiplyButton = document.querySelector('#multiply')
+    multiplyButton.addEventListener('click', function(){addOperator("*") })
 
-    // const divideButton = document.querySelector('#divide')
-    // divideButton.addEventListener('click', function(){addOperator("/") })
+    const divideButton = document.querySelector('#divide')
+    divideButton.addEventListener('click', function(){addOperator("/") })
 
-    // const percentageButton = document.querySelector('#percentage')
-    // percentageButton.addEventListener('click', function(){addOperator("%") })
+    const percentageButton = document.querySelector('#percentage')
+    percentageButton.addEventListener('click', function(){addOperator("%") })
 
-    // const expoButton = document.querySelector('#exponenciation')
-    // expoButton.addEventListener('click', function(){addOperator("**")})
+    const expoButton = document.querySelector('#exponenciation')
+    expoButton.addEventListener('click', function(){addOperator("**")})
 
-    // const equalsButton = document.querySelector('#equals')
-    // equalsButton.addEventListener('click', function(){addEqualsToOperator() })
+    const equalsButton = document.querySelector('#equals')
+    equalsButton.addEventListener('click', function(){addEqualsToOperator() })
 
     const btnDel = document.querySelector('#Del')
     btnDel.addEventListener('click', function(){
